@@ -79,6 +79,12 @@ body {
     align-items: center;
 }
 
+.about-desc {
+    font-size: 26px;
+    flex: 1;
+    font-style: italic;
+}
+
 #book-now {
     font-size: 26px;   
     height: 100px;
