@@ -31,7 +31,16 @@ nav ul li {
 
 #keywordInput {
     border-radius: 5px;
-    min-width: 200px
+    min-width: 300px;
+    font-size: 16px;
+}
+
+#btnSearch, #btnClear {
+    font-size: 16px;
+    background-color: transparent;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 4px;
 }
 
 nav a {
@@ -71,7 +80,7 @@ body {
 }
 
 .box-2 {
-    font-size: 36px;
+    font-size: 16px;
     flex: 1;
     font-style: italic;
 }
@@ -146,4 +155,9 @@ body {
 
 .contact-us-form {
     text-align:left;
+}
+
+.travelDetails {
+    max-height: 500px;
+    overflow: auto;
 }
