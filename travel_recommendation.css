@@ -2,6 +2,7 @@
 html {
     background-image: url('travel.jpg');
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -9,8 +10,9 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+
 nav {
-    background-color: (1,1,1,0);
+    background-color: (1, 1, 1, 0);
     padding: 20px;
     display: flex;
     align-items: center;
@@ -52,6 +54,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .box {
     text-align: center;
     color: black;
@@ -97,7 +100,8 @@ body {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    border-radius: 5px; /* 5px rounded corners */
+    border-radius: 5px;
+    /* 5px rounded corners */
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -108,9 +112,38 @@ body {
 /* Add some padding inside the card container */
 .card-container {
     padding: 2px 16px;
+    border: solid black 2px;
+    border-radius: 10px;
 }
 
-/* Add rounded corners to the top left and the top right corner of the image */
-img {
-    border-radius: 5px 5px 0 0;
+/* Some basic styling for demonstration purposes */
+#contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: transparent;
+    color: black;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
+
+.contact-us-form {
+    text-align:left;
 }
